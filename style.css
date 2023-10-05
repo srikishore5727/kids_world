@@ -139,7 +139,7 @@ footer{
     color: white;
 }
 
-@media (max-width:500px){
+@media (max-width:1110px){
     #top-container{
         width:100%;
     }
@@ -165,11 +165,11 @@ footer{
         margin:100px 10px;
     }
     footer{
-        margin-bottom: 0%;
+        margin-bottom:0%;
     }
     footer #footer-detail{
         color:white;
-        margin-left: -10px;
+        margin-left: auto;
     }
 
 }
