@@ -121,7 +121,6 @@ footer{
     background-color: black;
 }
 #profile{
-    /* border: 2px solid red; */
     display: block;
     margin:10px 40px;
     height:100px;
@@ -137,8 +136,42 @@ footer{
     margin-left: 830px;
     margin-top: 40px;
     margin-bottom: 30px;
-    /* border: 2px solid yellow; */
     color: white;
+}
+
+@media (max-width:500px){
+    #top-container{
+        width:100%;
+    }
+    #top-container #logo{
+        margin: auto 0;
+    }
+    #top-container span{
+        margin:auto 0;
+    }
+    #books{
+        display: flex;
+        flex-direction: column;
+        margin:50% auto;
+        padding: 40px;
+    }
+    .new-book{
+        height: 50%;
+    }
+    .book .cash-card{
+        margin-bottom: 15px;
+    }
+    #theme-img #theme-txt{
+        margin:100px 10px;
+    }
+    footer{
+        margin-bottom: 0%;
+    }
+    footer #footer-detail{
+        color:white;
+        margin-left: -10px;
+    }
+
 }
 
 
