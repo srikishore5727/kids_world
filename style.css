@@ -152,20 +152,42 @@ footer{
     #books{
         display: flex;
         flex-direction: column;
-        margin:50% auto;
+        margin:20% auto;
         padding: 40px;
+        text-align: center;
     }
-    .new-book{
-        height: 50%;
+    #books .book .new-book{
+        /* display: block; */
+        margin: auto;
+        height: 300px;
+
     }
     .book .cash-card{
         margin-bottom: 15px;
     }
     #theme-img #theme-txt{
-        margin:100px 10px;
+        margin:auto 10px;
+        font-size: medium;
     }
     #theme-img #theme{
-        object-fit: fill;    }
+        height:230px;
+
+    }
+    .book .infos .head-content{
+        /* border: 2px solid red; */
+        margin: auto;
+        font-size: xx-large;
+    }
+    .cash-card .amount{
+        font-size: 25px;
+    }
+    .add-card{
+        height: 40px;
+        width: 80px;
+    }
+    .add-card .add-txt,.cart{
+        margin: auto;
+    }
     footer{
         margin-bottom:0%;
     }
