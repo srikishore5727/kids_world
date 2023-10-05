@@ -86,6 +86,19 @@
 }
 .book .new-book{
     height: 220px;
+    /* border: 2px solid red; */
+}
+
+/* .first-book{
+    margin-top: -60px;
+    border: 2px solid red;
+} */
+.second-book{
+    margin-top: -35px;
+}
+.infos .one{
+    /* border: 2px solid red; */
+    margin-top: -90px;
 }
 #books{
     /* border: 1px solid brown; */
@@ -106,10 +119,12 @@ div #content-one{
 }
 .book .infos{
     /* margin-left: 3.6px; */
+    /* border: 2px solid red; */
     margin-top: -28px;
     font-size: 15px;
 }
-.info-one{
+
+.infos{
     margin-top: -20px;
     position:relative;
     font-size: 12px;
